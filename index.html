@@ -8,7 +8,7 @@
 
 </head>
 
-<body>
+<body onclick="Play()">
 
 	<div class="card">
 		<div class="imgBox">
@@ -45,10 +45,16 @@
 
 		</div>
 	</div>
-	<audio src="ride.mp3" controls autoplay loop>
-		
-	</audio>
+	<audio id="musica" autoplay >
+		<source src="ride.mp3" type="audio/mpeg">
+		Tu navegador no soporta la reproducción de audio.
+	  </audio>
 
+	<script>
+		function Play(){
+			document.getElementById("musica").play();
+		}
+	</script>
 </body>
 
 </html>
