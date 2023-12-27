@@ -11,7 +11,9 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-
+.parrafos{
+	margin-top: 150px;
+}
 ::selection {
 	background: transparent;
 }
@@ -110,6 +112,19 @@ h4 {
 	transition: .6s;
   box-shadow: 300px 200px 100px rgba(0, 0, 0, .4) inset;
 }
+.flexs{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	transform: rotate(-7deg);
+}
+.imagep{
+	width: 100px;
+}
 
 .card .details {
 	position: absolute;
@@ -134,4 +149,12 @@ h4 {
 
 .text-right {
 	text-align: right;
+}
+
+.deg1{
+	transform: rotate(-10deg);
+}
+
+.deg2{
+	transform: rotate(10deg);
 }
