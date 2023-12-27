@@ -80,7 +80,7 @@ h4 {
 	display: flex;
 	flex-direction: column;
 	align-items:center ;
-	justify-content: center;
+	justify-content: flex-end;
 	position: relative;
 	transform-origin: left;
 	transition: .7s;
@@ -124,6 +124,21 @@ h4 {
 }
 .imagep{
 	width: 100px;
+}
+.animacion{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	animation: flotar 2s ease-in-out infinite;
+}
+@keyframes flotar {
+    0%, 100% {
+        transform: translate(-50%, -50%) translateY(0); /* Posición inicial y final */
+    }
+    50% {
+        transform: translate(-50%, -50%) translateY(-20px); /* Punto más alto de la animación */
+    }
 }
 
 .card .details {
