@@ -3,7 +3,7 @@
 
 body {
 	font-family: 'Indie Flower', cursive !important;
-  background: #FDE3A7;
+  background:#ffc0cb ;
 	margin: 0px;
 	padding: 0px;
 }
@@ -12,10 +12,11 @@ body {
 	background: transparent;
 }
 .title{
-	color: #C0392B;
+	color: #ffc0cb;
+	font-size: 50px;
 }
 h4 {
-	font-size: 26px;
+	font-size: 40px;
 	line-height: 1px;
 	font-family: 'Amatic SC', cursive !important;
 }
@@ -92,8 +93,8 @@ h4 {
 }
 
 .card .imgBox img {
-	min-width: 250px;
-	max-height: 400px;
+	min-width: 300px;
+	max-height: 450px;
 }
 
 .card:hover .imgBox {
@@ -111,15 +112,15 @@ h4 {
 	top: 0;
 	left: 0;
 	box-sizing: border-box;
-	padding: 0 0 0 10px;
+	padding: 50px 0 0 10px;
 	z-index: -1;
-	margin-top: 70px;
+	margin-top: 20px;
 }
 
 .card .details p {
-	font-size: 15px;
+	font-size: 25px;
 	line-height: 5px;
-	transform: rotate(-10deg);
+	transform: rotate(-7deg);
 	padding: 0 0 0 20px;
 }
 
